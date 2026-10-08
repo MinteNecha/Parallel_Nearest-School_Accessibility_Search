@@ -13,6 +13,8 @@ __pycache__/
 data/*/*
 !data/*/meta.json
 !data/*/schools_map.csv
+results/*
+data/*
 
 # LaTeX build files
 paper/*.aux
@@ -24,7 +26,11 @@ paper/*.log
 paper/*.out
 paper/*.synctex.gz
 paper/paper.pdf
+paper/*
 
+results_quick/*
+
+full_run.log            
 # Editor and OS
 .vscode/
 .idea/
